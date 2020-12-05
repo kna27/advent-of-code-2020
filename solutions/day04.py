@@ -12,7 +12,7 @@ for line in passportFile:
         p2List.append(line)
 print("Part 1:", part1)
 
-# Part 2, THANK YOU TO REDDIT USER u/thebasementtapes FOR HIS SOLUTION!
+# Part 2, THANK YOU TO REDDIT USER u/thebasementtapes FOR HIS HELP!
 def passport():
     txt = open("data_day04.txt").read()
     txt = txt.split("\n\n")
